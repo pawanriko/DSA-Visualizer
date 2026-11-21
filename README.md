@@ -1,9 +1,27 @@
 # 🚀 DSA Visualizer
 
+[![Live demo](https://img.shields.io/badge/live-pawanriko.github.io-2ea44f)](https://pawanriko.github.io/DSA-Visualizer/)
+![Top language](https://img.shields.io/github/languages/top/pawanriko/DSA-Visualizer)
+![Stars](https://img.shields.io/github/stars/pawanriko/DSA-Visualizer?style=social)
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,git,github)](https://skillicons.dev)
+
 An interactive web-based Data Structures and Algorithms Visualizer built using HTML, CSS, and JavaScript.
 
 This project helps students understand how common data structures and algorithms work through real-time visual animations, complexity analysis, and interactive controls.
 
+**Live:** [pawanriko.github.io/DSA-Visualizer/](https://pawanriko.github.io/DSA-Visualizer/)
+
+## How it works
+
+```mermaid
+flowchart LR
+    You([You]) --> Pick[Pick a structure or algorithm]
+    Pick --> Setup[Set up the array / values]
+    Setup --> Engine[Step engine<br/>compares, swaps, moves pointers]
+    Engine --> Animate[DOM animation<br/>bars + pointers move]
+    Animate --> Panel[Complexity panel<br/>time + space]
+```
 ---
 
 ## ✨ Features
@@ -101,6 +119,8 @@ This makes learning easier by allowing slower or faster execution.
 
 ## 🛠 Technologies Used
 
+[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+
 * HTML5
 * CSS3
 * JavaScript (ES6)
@@ -113,17 +133,10 @@ This makes learning easier by allowing slower or faster execution.
 ## 📂 Project Structure
 
 ```text
-DSA-Visualizer-Pro/
+DSA-Visualizer/
 │
 ├── index.html
-├── README.md
-├── LICENSE
-│
-└── screenshots/
-    ├── home.png
-    ├── linear-search.png
-    ├── binary-search.png
-    ├── sorting.png
+└── README.md
 ```
 
 ---
@@ -142,28 +155,12 @@ This project demonstrates:
 
 ---
 
-## 📸 Screenshots
-
-### Home Screen
-
-Add screenshot here.
-
-### Binary Search Visualization
-
-Add screenshot here.
-
-### Sorting Visualization
-
-Add screenshot here.
-
----
-
 ## 🚀 Run Locally
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/dsa-visualizer-pro.git
+git clone https://github.com/pawanriko/DSA-Visualizer.git
 ```
 
 Open:
